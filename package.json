@@ -4,7 +4,7 @@
   "description": "react typescript npm storybook boilerplate",
   "scripts": {
     "build": "rm -rf ./lib && tsc",
-    "test": "jest",
+    "test": "jest && codecov",
     "storybook": "start-storybook -p 9009",
     "prepare": "yarn build",
     "lint": "tslint -c tslint.json --project tsconfig.json"
