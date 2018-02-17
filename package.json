@@ -6,6 +6,7 @@
     "build": "rm -rf ./lib && tsc",
     "test": "jest",
     "storybook": "start-storybook -p 9009",
+    "prepare": "yarn build",
     "lint": "tslint -c tslint.json --project tsconfig.json"
   },
   "main": "lib/index.js",
