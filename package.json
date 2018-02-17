@@ -1,15 +1,20 @@
 {
   "name": "react-typescript-npm-storybook-boilerplate",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "react typescript npm storybook boilerplate",
   "scripts": {
     "build": "rm -rf ./lib && tsc",
     "test": "jest",
-    "storybook": "start-storybook -p 9009"
+    "storybook": "start-storybook -p 9009",
+    "lint": "tslint -c tslint.json --project tsconfig.json"
   },
   "main": "lib/index.js",
   "types": "lib/index.d.ts",
   "author": "youyue@airsquire.co",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Airsquire/react-typescript-npm-storybook-boilerplate"
+  },
   "keywords": [
     "react",
     "typescript",
@@ -49,7 +54,9 @@
     "jest": "^22.3.0",
     "source-map-loader": "^0.2.3",
     "storybook": "^1.0.0",
-    "ts-jest": "^22.0.4"
+    "ts-jest": "^22.0.4",
+    "tslint": "^5.9.1",
+    "tslint-react": "^3.5.1"
   },
   "license": "Apache-2.0"
 }

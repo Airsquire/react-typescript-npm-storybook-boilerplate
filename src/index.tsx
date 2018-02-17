@@ -1,10 +1,10 @@
 import * as React from "react"
 
-export interface SampleProps {
+export interface InterfaceSampleProps {
     sampleName: string
 }
 
-class Sample extends React.Component<SampleProps> {
+class Sample extends React.Component<InterfaceSampleProps> {
   private static defaultProps = {
     sampleName: "Hello World"
   }

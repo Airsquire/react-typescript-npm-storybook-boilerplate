@@ -1,0 +1,9 @@
+{
+    "extends": [ "tslint:latest", "tslint-react" ],
+    "rules": {
+        "trailing-comma": false,
+        "semicolon": false,
+        "member-access": false,
+        "no-implicit-dependencies": [true, "dev"]
+    }
+}
