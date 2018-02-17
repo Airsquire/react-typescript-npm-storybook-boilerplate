@@ -14,3 +14,5 @@ before_install:
     fi
     npm install npm@5.x -g
     phantomjs --version
+- npm i -g typescript typings
+- typings install
