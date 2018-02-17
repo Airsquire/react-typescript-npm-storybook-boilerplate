@@ -1,0 +1,55 @@
+{
+  "name": "react-typescript-npm-storybook-boilerplate",
+  "version": "0.1.0",
+  "description": "react typescript npm storybook boilerplate",
+  "scripts": {
+    "build": "rm -rf ./lib && tsc",
+    "test": "jest",
+    "storybook": "start-storybook -p 9009"
+  },
+  "main": "lib/index.js",
+  "types": "lib/index.d.ts",
+  "author": "youyue@airsquire.co",
+  "keywords": [
+    "react",
+    "typescript",
+    "npm",
+    "boilerplate",
+    "storybook"
+  ],
+  "jest": {
+    "moduleFileExtensions": [
+      "ts",
+      "tsx",
+      "js"
+    ],
+    "coverageDirectory": "./coverage/",
+    "collectCoverage": true,
+    "transform": {
+      "^.+\\.tsx?$": "ts-jest"
+    },
+    "testRegex": "/*.test.(ts|tsx|js)$"
+  },
+  "dependencies": {
+    "react": "^16.2.0",
+    "react-dom": "^16.2.0"
+  },
+  "devDependencies": {
+    "@storybook/addon-actions": "^3.3.13",
+    "@storybook/addon-knobs": "^3.3.13",
+    "@storybook/react": "^3.3.13",
+    "@types/jest": "^22.1.3",
+    "@types/react": "^16.0.38",
+    "@types/react-dom": "^16.0.4",
+    "@types/storybook__react": "^3.0.7",
+    "awesome-typescript-loader": "^3.4.1",
+    "babel-core": "^6.26.0",
+    "enzyme": "^3.3.0",
+    "enzyme-adapter-react-16": "^1.1.1",
+    "jest": "^22.3.0",
+    "source-map-loader": "^0.2.3",
+    "storybook": "^1.0.0",
+    "ts-jest": "^22.0.4"
+  },
+  "license": "Apache-2.0"
+}
