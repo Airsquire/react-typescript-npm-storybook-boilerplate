@@ -2,10 +2,6 @@ language: node_js
 
 sudo: false
 
-notifications:
-  email:
-  - youyue@airsquire.co
-
 node_js:
 - 8.0.0
 
