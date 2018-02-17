@@ -4,6 +4,7 @@
         "trailing-comma": false,
         "semicolon": false,
         "member-access": false,
-        "no-implicit-dependencies": [true, "dev"]
+        "no-implicit-dependencies": [true, "dev"],
+        "no-submodule-imports": false
     }
 }

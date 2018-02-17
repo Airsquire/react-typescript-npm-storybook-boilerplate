@@ -9,7 +9,7 @@ describe("<Sample />", () => {
     const testDescription = "Hello Airsquire"
     const wrapper = Enzyme.shallow(
       <Sample
-        sampleName= {testDescription}
+        sampleName={testDescription}
       />
     )
     expect(wrapper.find("div").length).toBe(1)
